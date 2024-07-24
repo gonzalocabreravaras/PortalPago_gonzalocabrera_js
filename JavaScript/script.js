@@ -79,6 +79,7 @@ console.log(socios);
 // FUNCIONES
 function pagarCuotaMensual(socio) {
     let montoCuota = parseFloat(prompt("Por favor ingresa el valor sin signos ni puntos (Ej: 5000)"));
+    confirm("¿Confirmas el pago?")
     alert("¡Muchas gracias! 🫡 El pago se ha realizado exitosamente");
 
     actualizarCuotasPagadas(socio, montoCuota);
