@@ -1,0 +1,69 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#portal {
+    display: inline;
+    text-align: center;
+}
+
+#portal h1 {
+    font-weight: 700;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#portal-dynamic {
+    display: inline;
+    justify-content: center;
+    width: 80%;
+    padding-top: 40px;
+}
+
+#portal-dynamic h5 {
+    font-weight: 400;
+}
+
+#portal-dynamic h4 {
+    font-weight: 400;
+}
+
+.list-group {
+    padding-top: 20px;
+}
+
+.list-group a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-group a:hover {
+    color: #0d6efd;
+}
+
+.modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+}
+
+.titulo-form {
+    font-weight: 400;
+}
