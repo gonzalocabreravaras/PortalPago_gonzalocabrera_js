@@ -8,7 +8,7 @@ let socios = [];
 // Función para cargar socios desde JSON
 async function cargarSociosDesdeJSON() {
     try {
-        const response = await fetch('/DATA-BASE/socios.json');
+        const response = await fetch('DATA-BASE/socios.json');
         const data = await response.json();
         return data;
     } catch (error) {
