@@ -1,0 +1,32 @@
+[
+    {
+      "rut": "18421472-5",
+      "nombre": "Alexis Sanchez",
+      "cuotaMensual": 15000,
+      "cuotasPagadas": 15000,
+      "historialPagos": [
+        { "fecha": "2024-07-01", "monto": 15000 }
+      ]
+    },
+    {
+      "rut": "17563442-3",
+      "nombre": "Claudio Bravo",
+      "cuotaMensual": 15000,
+      "cuotasPagadas": 30000,
+      "historialPagos": [
+        { "fecha": "2024-06-01", "monto": 15000 },
+        { "fecha": "2024-07-01", "monto": 15000 }
+      ]
+    },
+    {
+      "rut": "18452883-0",
+      "nombre": "Cristiano Ronaldo",
+      "cuotaMensual": 30000,
+      "cuotasPagadas": 90000,
+      "historialPagos": [
+        { "fecha": "2024-05-01", "monto": 30000 },
+        { "fecha": "2024-06-01", "monto": 30000 },
+        { "fecha": "2024-07-01", "monto": 30000 }
+      ]
+    }
+  ]
